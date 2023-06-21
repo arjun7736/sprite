@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>sprite-official</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <header class="main-section position-sticky top-0 ">
+
+        <nav class="navigation-bar d-flex  pt-3">
+
+            <li id="hamburger"><i id="bars" onclick="openDropDown()" class="fa-solid fa-bars"></i></li>
+
+            <img id="logo" class=" col-lg-4 col-sm-4" src="images/same-sprite.png" alt="">
+
+            <ul id="navigation" class=" ms-4 d-flex me-lg-5 ">
+                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sprite Zero Sugar</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">The Creators</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Buy Now</a></li>
+            </ul>
+            <ul id="social" class="d-flex ms-lg-5 p-lg-4">
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-twitter "></i></a></li>
+                <li class="nav-i5 me-md-autoem"><a class="nav-link" href="#"><i class="fa-brands fa-youtube "></i> </a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-instagram "></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-spotify "></i></a></li>
+                <a href=""> <i id="profile-logo" class="fa-solid fa-user col-sm-4 mt-1 nav-link "></i></a>
+
+            </ul>
+
+
+        </nav>
+    </header>
+
+
+
+    <!-- drop-down-->
+    <div id="drop-down" class="collapse">
+        <ul class="mt-1 p-0 d-flex flex-column justify-content-between ">
+
+            <li><a class="drop-list" href="#">Products</a></li>
+            <li><a class="drop-list" href="#">Sprite Zero Sugar</a></li>
+            <li><a class="drop-list" href="#"> The Creators</a></li>
+            <li><a class="drop-list" href="#">Buy Now</a></li>
+            <li><i id="cross" onclick="closeDropDown()">close</i></li>
+
+        </ul>
+
+    </div>
+
+    <section class="container-fluid section1">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <img class="img-fluid" id="summer-log" src="images/sprite-summer-of-drops-lockup.png" alt="">
+                <h1 id="text-celebration" class="col-sm-12 text-sm-start">
+                    CELEBRATING 50 <br>
+                    YEARS OF HIP- <br> HOP
+                </h1>
+                <button id="learn-more-btn">LERAN MORE</button>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <img class=" title-image  img-fluid" src="images/sprite-lymonade-bottles.png " alt="lymond-bottles">
+                <img class="bottle-second-image img-fluid" src="images/bottile-small.png" alt="bottle-second-image">
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 mt-5">
+                <video controls width="100%" class="vedio">
+                    <source src="images/Ad Video.mp4">
+                </video>
+
+            </div>
+            <div class="col-sm-12 col-lg-6 mt-5">
+                <h1>
+                    New Drip. Same Sip.
+                </h1>
+                <h3>
+                    Anthony Edwards and Trae Young take center court alongside Sprite's new clear bottle to show that it
+                    might be a new generation, but the game is the same.
+                </h3>
+                <button id="shop-btn">SHOP NOW</button>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="green-text-section">
+        <div class="container">
+            <div class="row  row-cols-md-6">
+                <div class="col-sm-12 col-sm-5 me-0 col-md-12  col-lg-6 me-0 div-green-text">
+                    <p id="text-green">Now Made With Clear Plastic
+                        To Help This
+                        Bottle Be Re-
+                        Made.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-xl-6 col-lg-6  col-md-12 all-clear-image-div div-allClear-image">
+                    <img id="all-clear-image" class="img-fluid justify-content-center" src="images/allclear.png"
+                        alt="all-clear-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="container-fluid ">
+        <div class="row div-down-logo-social-types">
+
+            <div class="col-md-4 div-sprite-logo ">
+                <img class="col-md-12" id="logo-sprite-down" src="images/same-sprite.png" alt=""></li>
+
+            </div>
+            <div class="col-lg-4 align-items-center">
+                <div class="row">
+                    <p id="connect-with">CONNECT WITH US</p>
+                </div>
+
+                <div class="row">
+                    <ul id="social-bottom" class="container">
+                        <li><a href="#"><i class="social-down fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="social-down fa-brands fa-twitter "></i></a></li>
+                        <li><a href="#"><i class="social-down fa-brands fa-youtube "></i> </a></li>
+                        <li><a href="#"><i class="social-down fa-brands fa-instagram "></i></a></li>
+                        <li><a href="#"><i class="social-down fa-brands fa-spotify "></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class=" col-lg-4">
+
+                <ul class="type-of-sprite">
+                    <li class="nav-link"><a href="#">SPRITE</a></li>
+                    <li class="nav-link"><a href="#">PRODUCTS</a></li>
+                    <li class="nav-link"><a href="#">SPRITE ZERO SUGAR</a></li>
+                    <li class="nav-link"><a href="#">SPRITE LYMONADE</a></li>
+                    <li class="nav-link"><a href="#">SPRITE CHERRY</a></li>
+                    <li class="nav-link"><a href="#">SPRITE TROPICAL MIX</a></li>
+                    <li class="nav-link"><a href="#">SPRITE LYMONADE LEGACY</a></li>
+                </ul>
+
+            </div>
+
+            <div class="row last-footer">
+                <div class="row copyright ">
+                    <p id="rights-coca-cola"> 2023 The Coca-Cola Company. All Rights reserved</p>
+                    </li>
+                </div>
+
+
+                <div class=" col-lg-12 gap-1 terms-services">
+
+                    <ul class="footer-list  col-md-12 col-sm-12 d-lg-flex justify-content-between">
+                        <li><a href="">Support Center.</a>
+                        <li>
+                            <hr>
+                        <li></li> <a href="">Terms.</a>
+                        <hr>
+                        <li><a href="">Privacy.</a></li>
+                        <hr>
+                        <li><a href="">California Notice at Collection.</a></li>
+                        <hr>
+                        <li> <a href="">Do Not Sell or Share My Personal Information.</a></li>
+                        <hr>
+                        <li><a href="">Sitemap.</a></li>
+                        <hr>
+                        <li> <a href="">Rules.</a></li>
+                        <hr>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

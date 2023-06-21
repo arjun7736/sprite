@@ -1,0 +1,397 @@
+
+
+
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Anton', sans-serif;
+font-weight: 400;
+letter-spacing: 1px;
+overflow-x: hidden;
+
+
+
+}
+
+#cross{
+    color: #614343;
+}
+#drop-down {
+
+    z-index: 85;
+    
+    background-color: rgb(0,155,78);
+    margin-top: auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    position: fixed;
+    line-height: 50px;
+    top: 48px;
+    width: 100%;
+    height: auto;
+}
+
+.drop-list:hover{
+    color: rgb(12, 12, 12);
+    transition: 0.5s;
+    cursor: pointer;
+   
+}
+#hamburger{
+    list-style: none;
+    display: none;
+}
+#text-celebration{
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 1.2em;
+    color: #fff;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+   
+}
+.bottle-second-image{
+    display: none;
+
+}
+#logo{
+    width: 20vh;
+    height: 7vh;
+    
+    
+}
+.main-section{
+    
+    z-index: 100;
+    background-color: rgb(0,155,78);
+    color: #fff;
+    height: auto;
+    align-items: center;
+    justify-content:space-evenly ;
+    padding: 15px;
+   
+}
+
+#social{
+    gap:1.5em;
+   
+}
+#navigation {
+    gap:2em;
+    font-size: 14px;
+}
+.nav-link:hover{
+    color: #000;
+    transition: 0.5s;
+    
+}
+.social-down:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    display: flex;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%
+   
+}
+
+nav ul li {
+    display: none;
+}
+#profile-logo{
+display: block;
+background-color: rgb(0,155,78);
+
+}
+
+
+.mid-container{
+    background-color: #000;
+    color: #fff;
+    max-width: 100%;
+   
+}
+#summer-log{
+    height: 52px;
+    max-width: 233.33px;
+    margin-top: 37px;
+    padding-left: 20px;
+}
+
+#learn-more-btn {
+    background-color:rgb(255,209,0); /* Green */
+    border: none;
+    width: 200px;
+    height: auto;
+    color: rgb(16, 16, 16);
+    padding: 15px 32px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    font-size: 16px;
+    font-weight: 500;
+   margin-top:10px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+  }
+  
+  .bottle-second-image{
+    margin-top: 40px;
+    min-width:102%;
+    height: 255px;
+    display: none;
+  }
+  .section1{
+    background-color: #000;
+}
+.vedio-sprite{
+    
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 16px;
+    height: auto;
+}
+p{  font-family: 'Anton', sans-serif;
+    padding-right:17px ;
+    padding-left: 17px;
+    font-weight: 800;
+    
+}
+#text-down-vedio{
+    margin: 11px;
+    font-size: 37px;
+}
+#text-down-text{
+    font-size: 31px;
+    
+    margin-top: 0;
+}
+#shop-btn{
+    background-color:rgb(255,209,0); /* Green */
+    border: none;
+    letter-spacing: 1.7px;
+    color: rgb(16, 16, 16);
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    min-width: 194px;
+    height: 38px;
+    margin-left: 20px;
+}
+#text-green{
+    font-family: 'grotesk';
+    padding-right: 26px;
+    padding-left: 26px;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(0,150,57);
+}
+#shop-btn:hover {
+    transition: 0.5s;
+    background-color : rgb(66, 65, 65);
+    color: #fff;
+    
+}
+#learn-more-btn:hover{
+    transition: 0.5s;
+    background-color : rgb(66, 65, 65);
+    color: #fff;
+}
+.green-text-section{
+    margin-right: 0px;
+}
+#all-clear-image{
+    padding-top: 34px;
+    height: auto;
+    width: 100%;
+   padding: 0px;
+   margin-bottom: 0;;
+}
+.div-allClear-image{
+    margin: 0;
+    padding: 0px;
+}
+
+footer{
+    background-color: rgb(0,155,78);
+    margin: 0;
+}
+.div-sprite-logo{
+    justify-content: center;
+    padding-left: 94px;
+    padding-bottom: 15px;
+}
+#logo-sprite-down{
+   
+    width: 170px;
+    height: 73px;
+    padding-top:20px;
+}
+.terms-services{
+   
+    width: 100%;
+   
+}
+.div-down-logo-social-types{
+    align-items: center;
+   
+}
+
+.footer-text {
+    text-align: center;
+    
+}
+.type-of-sprite :hover{
+    color: #000;
+}
+.type-of-sprite{
+    text-align: start;
+    margin-top: 30px;
+}
+
+
+#social-bottom{
+    padding-left: 117px;
+    gap: 0.3em;
+
+}
+
+#connect-with{
+    padding-left: 100px;
+    color: #fff;
+   
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+}
+.title-image{
+    width: 600px;
+    height: auto;
+}
+.footer-list{
+    text-align: center;
+    
+}
+.copyright{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;   
+}
+#rights-coca-cola{
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-left: 20px;
+   }
+.img-fluid{
+max-width: 100%;
+height: auto;
+}
+#text-green{
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+@media  (min-width:992px){
+    nav ul li  {
+        display:block;
+    }
+    #summer-log{
+     width: 200px;
+    }
+   
+    #text-green{
+       padding-top: 100px;
+    }
+
+}
+@media (max-width:912px){
+.title-image{
+    display: none;
+} .bottle-second-image{
+    display: block;
+   
+}
+#hamburger{
+    display: block;
+    
+}
+
+#text-celebration{
+    font-size:40px;
+}
+#text-green{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+}
+@media (max-width:991px){
+    .vedio-sprite{
+        max-width:100%;
+    }
+    .footer-list{
+        font-size: 1em;
+       
+    }
+    
+}
+@media (max-width:766px){
+    #rights-coca-cola{
+     font-size: 10px;
+     
+    }
+    #text-green{
+        font-size: 50px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:414px){
+    #text-celebration{
+        font-size: 35px;
+    }
+    #text-green{
+        font-size: 25px;
+    }
+
+}
+
+
+@media (max-width:600){
+    #text-celebration{
+        font-size: 47px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
